@@ -25,7 +25,7 @@
         "source": "https://central.hoa-project.net/Resource/Library/Mail"
     },
     "require": {
-        "php"            : ">=5.5.0",
+        "php"            : ">=7.1",
         "hoa/consistency": "~1.0",
         "hoa/exception"  : "~1.0",
         "hoa/mime"       : "~3.0",
@@ -37,7 +37,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Hoa\\Mail\\": "."
+            "Hoa\\Mail\\"      : "Source",
+            "Hoa\\Mail\\Test\\": "Test"
         }
     },
     "extra": {
